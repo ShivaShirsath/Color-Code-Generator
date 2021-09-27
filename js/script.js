@@ -3,7 +3,7 @@ function refreshColor() {
 	var green = document.getElementById('green').value
 	var blue = document.getElementById('blue').value
 	var alfa = document.getElementById('alfa').value / 100
-	var color = 'rgba(' + red + ',' + green + ',' + blue + ',' + alfa + ')'
+	var color = 'rgba(' + red + ', ' + green + ', ' + blue + ', ' + alfa + ')'
 	document.body.style.background = color
 	document.getElementById('box').value = color
 	document.getElementById('alfa').style.background = 'linear-gradient(90deg,rgba(0,0,0,0),' + 'rgba(' + red + ',' + green + ',' + blue + ')'
