@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+*{
+  font-family: 'Cutive Mono', monospace;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+}
+.main{
+  height: 95%;
+  width: 95%;
+  background: rgba(0,0,0,0.2);
+  border-radius: 1vh;
+  display: grid;
+  place-items: center;
+}
+.main #box{
+  height: 15vh;
+  width: 95%;
+  border: none;
+  background: rgba(0,0,0,0.1);
+  border-radius: 1vh;
+  font-size: 5vh;
+  text-align: center;
+}
+input[type="range"]{
+  -webkit-appearance: none;
+  height: 15vh;
+  width: 95%;
+  border-radius: 25vh;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  background: rgba(127,127,127,0.7);
+  width: 5vh;
+  height: 5vh;
+  border-radius: 5vh;
+  cursor: pointer;
+}
+.main #red{
+  background: linear-gradient(90deg,#000,#f00);
+}
+
+.main #green{
+  background: linear-gradient(90deg,#000,#0f0);
+}
+  
+.main #blue{
+  background: linear-gradient(90deg,#000,#00f);
+}
+
+.main #alfa{
+  background: linear-gradient(90deg,rgba(0,0,0,0),rgba(255,255,255,1));
+}
