@@ -2,7 +2,7 @@
   rgba-generator
   <br>
   Red Green Blue Alfa 
-  <b>
+  <br>
   <a href=https://ShivaShirsath.github.io/rgba-generator>
     ►
   </a>
