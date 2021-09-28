@@ -1,14 +1,14 @@
 function refreshColor() {
-	var red = document.getElementById('red').value
-	var green = document.getElementById('green').value
-	var blue = document.getElementById('blue').value
-	var alfa = document.getElementById('alfa').value / 100
-	var color = 'rgba(' + red + ', ' + green + ', ' + blue + ', ' + alfa + ')'
-	document.body.style.background = color
-	document.getElementById('box').value = color
-	document.getElementById('alfa').style.background = 'linear-gradient(90deg,rgba(0,0,0,0),' + 'rgba(' + red + ',' + green + ',' + blue + ')'
+	var r = document.getElementById('r').value ;
+	var g = document.getElementById('g').value ;
+	var b = document.getElementById('b').value ;
+	var a = document.getElementById('a').value / 100 ;
+	var c = 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')' ;
+	document.body.style.background = c ;
+	document.getElementById('c').value = c ;
+	document.getElementById('a').style.background = 'linear-gradient(90deg,rgba(0,0,0,0),' + 'rgba(' + r + ',' + g + ',' + b + ')' ;
 }
-document.getElementById('red').addEventListener('input', refreshColor)
-document.getElementById('green').addEventListener('input', refreshColor)
-document.getElementById('blue').addEventListener('input', refreshColor)
-document.getElementById('alfa').addEventListener('input', refreshColor)
+document.getElementById('r').addEventListener('input', refreshColor) ;
+document.getElementById('g').addEventListener('input', refreshColor) ;
+document.getElementById('b').addEventListener('input', refreshColor) ;
+document.getElementById('a').addEventListener('input', refreshColor) ;
