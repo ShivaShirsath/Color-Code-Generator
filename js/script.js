@@ -3,7 +3,7 @@ function refreshColor() {
 	var g = document.getElementById('g').value ;
 	var b = document.getElementById('b').value ;
 	var a = document.getElementById('a').value / 100 ;
-	var c = 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')' ;
+	var c = 'rgba( ' + r + ', ' + g + ', ' + b + ', ' + a + ' )' ;
 	document.body.style.background = c ;
 	document.getElementById('c').value = c ;
 	document.getElementById('a').style.background = 'linear-gradient(90deg,rgba(0,0,0,0),' + 'rgba(' + r + ',' + g + ',' + b + ')' ;
