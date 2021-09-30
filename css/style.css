@@ -22,7 +22,7 @@ input{
   -webkit-appearance: none;
   width: 95%;
   height: 7.5vh;
-  border-radius: 5vh;
+  border-radius: 7.5vh;
 }
 input::-webkit-slider-thumb{
   -webkit-appearance: none;
@@ -33,7 +33,7 @@ input::-webkit-slider-thumb{
   cursor: pointer;
 }
 #c{
-  height: 50vh;
+  height: 45vh;
   font-size: 2.5vh;
   border-radius: 15vh;
   text-align: center;
