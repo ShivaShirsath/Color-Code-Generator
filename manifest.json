@@ -1,11 +1,11 @@
 {
-    "name": "Flutter Web",
-    "short_name": "flutter web",
+    "name": "rgba Generator",
+    "short_name": "rgba generator",
     "start_url": ".",
     "display": "fullscreen",
     "background_color": "#888888",
     "theme_color": "#ff8800",
-    "description": "A Flutter Web project.",
+    "description": "Red Green Blue ",
     "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
