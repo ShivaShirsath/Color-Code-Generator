@@ -1,11 +1,11 @@
 const cacheName = "colorchache";
 const staticAssets = [
   ".",
-  "index.html",
-  "css/style.css",
-  "js/script.js",
-  "index.js",
-  "service.js",
+  "./index.html",
+  "./css/style.css",
+  "./js/script.js",
+  "./index.js",
+  "./service.js",
 ];
 
 self.addEventListener("install", async (e) => {
