@@ -7,7 +7,6 @@
     "theme_color": "#ff8800",
     "description": "Red Green Blue Alfa",
     "orientation": "any",
-    "prefer_related_applications": false,
     "icons": [
         {
             "src": "icons/Icon-192.png",
@@ -19,5 +18,17 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "screenshots": [
+    {
+      "src": "icons/Icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
