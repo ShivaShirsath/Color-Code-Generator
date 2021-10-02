@@ -7,11 +7,11 @@ function refreshColor() {
 	var color = r.value + ', ' +
 		g.value + ', ' +
 		b.value ;		
-	c.style.background =  'rgba(' +
+	c.value =  'rgba(' +
 		color +  ', ' +
 		a.value / 100 + 
 	' )' ;
-	c.value = c.style.background ;
+	c.style.background = c.value;
 	a.style.background = 'linear-gradient(to right,' + ' rgba(0, 0, 0 )' + ',' + 'rgba(' + color + ' )' ;
 }
 r.addEventListener('input', refreshColor) ;

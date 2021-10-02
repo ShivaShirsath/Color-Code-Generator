@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="manifest" href="manifest.json">
+	<link rel="stylesheet" type="text/css" href="css/style.css">  
+        <link rel="manifest" href="./manifest.webmanifest">
+        
   </head>
-  <body onload=refreshColor()>
+  <body onload="refreshColor()">
     <div>
       <input type="text"  id="c">
       <input type="range" id="r" min="0" max="255" value="255">
@@ -13,5 +14,6 @@
       <input type="range" id="a" min="0" max="100" value="75" >
     </div>
 	<script type="text/javascript" src="js/script.js" ></script>
+  <script src="./index.js" type="module"></script>
   </body>
-</html>		
+  </html>
