@@ -21,14 +21,19 @@
     ],
     "screenshots": [
     {
-      "src": "icons/Icon-512.png",
+      "src": "icons/ss-splash.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1080x2340"
     },
     {
-      "src": "icons/Icon-512.png",
+      "src": "icons/ss-dark.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "1080x2340"
+    },
+    {
+      "src": "icons/ss-light.png",
+      "type": "image/png",
+      "sizes": "1080x2340"
     }
   ]
 }
