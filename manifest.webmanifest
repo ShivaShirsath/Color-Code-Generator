@@ -21,11 +21,6 @@
     ],
     "screenshots": [
     {
-      "src": "icons/ss-splash.png",
-      "type": "image/png",
-      "sizes": "1080x2340"
-    },
-    {
       "src": "icons/ss-dark.png",
       "type": "image/png",
       "sizes": "1080x2340"
