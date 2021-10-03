@@ -1,25 +1,25 @@
 {
-    "name": "rgba Generator",
-    "short_name": "rgba generator",
-    "start_url": ".",
-    "display": "fullscreen",
-    "background_color": "#888888",
-    "theme_color": "#ff8800",
-    "description": "Red Green Blue Alfa",
-    "orientation": "any",
-    "icons": [
-        {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "screenshots": [
+  "name": "rgba Generator",
+  "short_name": "rgba generator",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#888888",
+  "theme_color": "#ff8800",
+  "description": "Red Green Blue Alfa",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
     {
       "src": "icons/ss-dark.png",
       "type": "image/png",

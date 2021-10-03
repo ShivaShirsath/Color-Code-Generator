@@ -7,7 +7,7 @@ async function registerSW() {
     try {
       await navigator.serviceWorker.register("./service.js");
     } catch (e) {
-      console.log('SW registration failed : ' + e);
+      console.log("SW registration failed : " + e);
     }
   }
 }
