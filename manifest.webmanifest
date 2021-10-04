@@ -1,11 +1,11 @@
 {
-  "name": "rgba Generator",
-  "short_name": "rgba generator",
+  "name": "Color Code Generator",
+  "short_name": "color code generator",
   "start_url": ".",
   "display": "fullscreen",
-  "background_color": "#888888",
+  "background_color": "#ff8800aa",
   "theme_color": "#ff8800",
-  "description": "Red Green Blue Alfa",
+  "description": "rgba & hex : Red Green Blue Alfa",
   "orientation": "any",
   "icons": [
     {
