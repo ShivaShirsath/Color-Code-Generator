@@ -3,7 +3,7 @@
   <br>
   Red Green Blue Alfa 
   <br>
-  <a href=https://ShivaShirsath.github.io/rgba-generator>
+  <a href=https://ShivaShirsath.github.io/Color-Code-Generator>
     ►
   </a>
 </h1>
