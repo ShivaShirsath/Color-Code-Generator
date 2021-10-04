@@ -24,11 +24,6 @@
       "src": "icons/ss-dark.png",
       "type": "image/png",
       "sizes": "1080x2340"
-    },
-    {
-      "src": "icons/ss-light.png",
-      "type": "image/png",
-      "sizes": "1080x2340"
     }
   ]
 }
