@@ -8,7 +8,7 @@ var getByPrompt = null;
 
 function numberToHex(number) {
   return (
-    (Number(number).toString(16) < 2 ? "0" : "") + Number(number).toString(16)
+    (Number(number).toString(16) < 10 ? "0" : "") + Number(number).toString(16)
   );
 }
 
