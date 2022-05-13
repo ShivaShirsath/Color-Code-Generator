@@ -1,5 +1,5 @@
 <h1 align=center>
-  rgba-generator
+   rgba-generator
   <br>
   Red Green Blue Alfa 
   <br>
