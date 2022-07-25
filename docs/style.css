@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0 0;
   padding: 0 0;
-  border-radius: 5vmin;
+  border-radius: 5vh;
   font-family: 'Courier New', Courier, monospace;
 }
 body {
@@ -24,7 +24,7 @@ input {
 input::-webkit-slider-thumb {
   -webkit-appearance: none;
   background: rgba(127, 127, 127, 0.5);
-  border-radius: 5vmin;
+  border-radius: 10vh;
   width: 10vh;
   height: 10vh;
   cursor: pointer;

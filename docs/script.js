@@ -1,3 +1,5 @@
+refreshColor();
+
 var rgba = document.getElementById("rgba");
 var hex = document.getElementById("hex");
 var r = document.getElementById("r");
@@ -5,7 +7,7 @@ var g = document.getElementById("g");
 var b = document.getElementById("b");
 var a = document.getElementById("a");
 var getByPrompt = null;
-console.log(document);
+
 function numberToHex(number) {
   return (
     (Number(number).toString(16) < 10 ? "0" : "") + Number(number).toString(16)
@@ -66,6 +68,6 @@ r.addEventListener("input", refreshColor);
 g.addEventListener("input", refreshColor);
 b.addEventListener("input", refreshColor);
 a.addEventListener("input", refreshColor);
-refreshColor();
+
 rgba.addEventListener("click", copyPrompt);
 hex.addEventListener("click", copyPrompt);
