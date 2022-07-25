@@ -12,7 +12,7 @@
       file.open('GET', 'docs/index.html', true);
       file.onreadystatechange = function() {
       if (file.readyState === 4) {
-        document.write(file.responseText.toString());
+        document.write(file.responseText);
       }
     };
     file.send();
