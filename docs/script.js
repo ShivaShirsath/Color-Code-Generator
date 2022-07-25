@@ -1,5 +1,3 @@
-refreshColor();
-
 var rgba = document.getElementById("rgba");
 var hex = document.getElementById("hex");
 var r = document.getElementById("r");

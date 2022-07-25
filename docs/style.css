@@ -1,45 +1,50 @@
 * {
-  box-sizing: border-box;
   margin: 0 0;
   padding: 0 0;
   border-radius: 5vh;
   font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
 }
-body {
-  display: grid;
-  height: 100vh;
-  width: 100vw;
-}
+
+body,
 div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
 }
+
 input {
-  -webkit-appearance: none;
-  width: 95%;
+  appearance: none;
+  width: 95vw;
   height: 10vh;
 }
-input::-webkit-slider-thumb {
-  -webkit-appearance: none;
+
+input::-webkit-slider-thumb{
+  appearance: none;
   background: rgba(127, 127, 127, 0.5);
   border-radius: 10vh;
-  width: 10vh;
+  aspect-ratio: 1;
   height: 10vh;
   cursor: pointer;
 }
+
 input[type="button"] {
   font-size: 5vmin;
   height: 20vh;
   text-align: center;
 }
+
 #r {
   background: linear-gradient(90deg, #000, #f00);
 }
+
 #g {
   background: linear-gradient(90deg, #000, #0f0);
 }
+
 #b {
   background: linear-gradient(90deg, #000, #00f);
 }
