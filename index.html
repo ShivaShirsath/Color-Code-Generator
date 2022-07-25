@@ -12,10 +12,11 @@
       file.open('GET', 'docs/index.html', true);
       file.onreadystatechange = function() {
       if (file.readyState === 4) {
-        document.write(file.responseText);
+        document.body.innerHTML = file.responseText;
       }
     };
     file.send();
+    refreshColor();
   "></body>
   <script type="text/javascript" src="docs/script.js"></script>
   <script src="index.js" type="module"></script>
